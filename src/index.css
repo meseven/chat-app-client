@@ -16,7 +16,7 @@
   width: 650px;
   height: 400px;
   background-color: bisque;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .form-container {

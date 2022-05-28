@@ -9,6 +9,10 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (!text) {
+      return;
+    }
+
     setChat((prev) => [...prev, { text, isFromMe: true }]);
     sendMessage(text);
     setText("");
