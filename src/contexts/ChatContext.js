@@ -4,8 +4,7 @@ const ChatContext = createContext();
 
 export const ChatContextProvider = ({ children }) => {
   const [chat, setChat] = useState([
-    { id: 1, text: "Merhaba React!" },
-    { id: 2, text: "Sana da Merhaba", isFromMe: true },
+    // { id: 2, text: "Sana da Merhaba", isFromMe: true },
   ]);
 
   const values = {
